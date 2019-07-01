@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42cc1883-3fb4-42b4-bc15-e1ae275a6a15" name="Default Changelist" comment="-">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kafka_playground.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-11/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-11/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-11/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-11/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-13/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-13/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-13/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-13/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-15/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-15/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-15/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-15/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-17/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-17/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-17/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-17/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-19/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-19/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-19/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-19/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-21/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-21/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-21/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-21/00000000000000000001.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-21/00000000000000000003.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-21/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-23/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-23/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-23/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-23/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-25/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-25/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-25/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-25/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-27/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-27/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-27/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-27/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-29/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-29/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-29/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-29/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-3/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-3/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-3/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-3/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-31/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-31/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-31/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-31/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-33/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-33/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-33/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-33/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-35/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-35/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-35/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-35/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-37/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-37/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-37/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-37/00000000000000000002.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-37/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-39/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-39/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-39/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-39/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-41/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-41/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-41/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-41/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-43/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-43/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-43/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-43/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-45/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-45/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-45/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-45/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-47/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-47/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-47/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-47/00000000000000000003.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-47/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-49/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-49/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-49/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-49/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-5/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-5/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-5/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-5/00000000000000000003.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-5/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-7/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-7/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-7/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-7/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-9/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-9/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-9/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/__consumer_offsets-9/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/test-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/test-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/test-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/test-0/00000000000000000006.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka1/kafka-logs-kafka1/test-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-10/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-10/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-10/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-10/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-12/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-12/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-12/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-12/00000000000000000001.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-12/00000000000000000002.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-12/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-14/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-14/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-14/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-14/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-16/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-16/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-16/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-16/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-18/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-18/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-18/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-18/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-20/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-20/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-20/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-20/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-22/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-22/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-22/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-22/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-24/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-24/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-24/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-24/00000000000000000002.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-24/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-26/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-26/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-26/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-26/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-28/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-28/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-28/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-28/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-30/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-30/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-30/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-30/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-32/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-32/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-32/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-32/00000000000000000002.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-32/00000000000000000003.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-32/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-34/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-34/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-34/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-34/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-36/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-36/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-36/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-36/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-38/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-38/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-38/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-38/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-4/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-4/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-4/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-4/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-40/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-40/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-40/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-40/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-42/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-42/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-42/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-42/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-44/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-44/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-44/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-44/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-46/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-46/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-46/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-46/00000000000000000002.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-46/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-48/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-48/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-48/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-48/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-6/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-6/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-6/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-6/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-8/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-8/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-8/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/__consumer_offsets-8/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/test-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/test-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/test-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/test-0/00000000000000000011.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/test-0/00000000000000000012.snapshot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/kafka2/kafka-logs-kafka2/test-0/leader-epoch-checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruby/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruby/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ruby/test.rb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="303">
+                <caret line="30" column="115" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/producer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.rb" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/ruby/test.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/ruby/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/docker/app/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/consumer.rb" />
+        <option value="$PROJECT_DIR$/producer.rb" />
+        <option value="$PROJECT_DIR$/consumer.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="165" />
+    <option name="y" value="222" />
+    <option name="width" value="1750" />
+    <option name="height" value="790" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kafka_playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka_playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FR-RPA端末\Workspace\kafka_playground" />
+      <recent name="C:\Users\FR-RPA端末\Workspace\kafka_playground\docker" />
+      <recent name="C:\Users\FR-RPA端末\Workspace\kafka_playground\ruby" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="producer" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="kafka_playground" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/producer.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.producer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42cc1883-3fb4-42b4-bc15-e1ae275a6a15" name="Default Changelist" comment="" />
+      <created>1561682390687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561682390687</updated>
+      <workItem from="1561682392643" duration="24715000" />
+    </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1561711453105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561711453105</updated>
+    </task>
+    <task id="LOCAL-00002" summary="-">
+      <created>1561949386527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561949386527</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24715000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="132" y="178" width="1400" height="632" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.2083639" />
+      <window_info id="Database" order="1" sideWeight="0.5028329" side_tool="true" weight="0.19762062" />
+      <window_info id="Structure" order="2" sideWeight="0.5028329" side_tool="true" weight="0.19762062" />
+      <window_info id="Favorites" order="3" sideWeight="0.50141644" side_tool="true" weight="0.15771812" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.124" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.82818794" weight="0.4022663" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20963173" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.17181209" side_tool="true" weight="0.23654391" />
+      <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.49932885" weight="0.1898017" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.04249292" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kafka_playground@test.rcov" NAME="test Coverage Results" MODIFIED="1561690404446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="kafka_playground" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docker/kafka/kafka-logs-3ea462e309cd/meta.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/kafka/kafka-logs-kafka/meta.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/app/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/.keep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/.keep">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/consumer.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2192" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/producer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="303">
+            <caret line="30" column="115" selection-start-line="30" selection-start-column="115" selection-end-line="30" selection-end-column="115" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

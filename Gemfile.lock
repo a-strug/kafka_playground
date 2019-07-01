@@ -2,6 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     digest-crc (0.4.1)
+    king_konf (0.3.7)
+    racecar (0.4.2)
+      king_konf (~> 0.3.6)
+      ruby-kafka (~> 0.6)
     ruby-kafka (0.7.8)
       digest-crc
 
@@ -9,6 +13,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  racecar
   ruby-kafka
 
 BUNDLED WITH
